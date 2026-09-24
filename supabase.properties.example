@@ -1,0 +1,11 @@
+# Copy to android/supabase.properties for local builds.
+# This file is intentionally ignored by git.
+SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLIC_PUBLISHABLE_KEY
+
+# Optional service routing. Leave blank to use SUPABASE_URL for that service.
+# DATA_READ can be a Supabase Read Replica/API load-balancer endpoint.
+SUPABASE_DATA_READ_URL=
+SUPABASE_DATA_WRITE_URL=
+SUPABASE_AUTH_URL=
+SUPABASE_STORAGE_URL=
